@@ -24,8 +24,6 @@ class ProductAdapter(private val context: Context, private val productList: List
     }
 
     override fun getItemCount(): Int = productList.size
-
-
 }
 
 class ProductViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
